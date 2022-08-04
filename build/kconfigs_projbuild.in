@@ -1,6 +1,0 @@
-source "D:/Subjects/TCC/Comm_device/SDKs/esp-idf-v4.4/components/app_update/Kconfig.projbuild"
-source "D:/Subjects/TCC/Comm_device/SDKs/esp-idf-v4.4/components/bootloader/Kconfig.projbuild"
-source "D:/Subjects/TCC/Comm_device/SDKs/esp-idf-v4.4/components/esp_rom/Kconfig.projbuild"
-source "D:/Subjects/TCC/Comm_device/SDKs/esp-idf-v4.4/components/esptool_py/Kconfig.projbuild"
-source "D:/Subjects/TCC/Comm_device/SDKs/esp-idf-v4.4/components/partition_table/Kconfig.projbuild"
-source "D:/Subjects/TCC/Comm_device/Testes_esp32/Simple_data_logger/main/Kconfig.projbuild"
