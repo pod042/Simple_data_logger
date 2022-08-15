@@ -24,6 +24,9 @@
 #include "lwip/err.h"
 #include "lwip/sys.h"
 
+// --- Own components --- //
+#include "DATA_PARSER.h"
+
 /* The examples use WiFi configuration that you can set via project configuration menu.
 
    If you'd rather not, just change the below entries to strings with
@@ -176,6 +179,7 @@ static void tcp_client_task(void *pvParameters)
 
 void app_main(void)
 {
+    //test();
     //Initialize NVS
     esp_err_t ret = nvs_flash_init();
     if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND) {
